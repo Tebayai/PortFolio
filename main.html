@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>  
+
+</head>
+<body>
+    <nav class="navmenu">
+        <div class="max-width">
+          <div class="logo"><a href="#">Portfolio</a></div>
+          <ul class="menu">
+              <li><a href="#canvas1">Home</a></li>
+              <li><a href="#apropos">À propos</a></li>
+              <li><a href="#Service">Service</a></li>
+              <li><a href="#Exemple">Exemple</a></li>
+              <li><a href="#Contact">Contact</a></li>
+          </ul>
+          <div class='menu-btn'>
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+      </nav>
+
+    <!-- Home -->
+  <canvas class="canvas" id="canvas1" >  </canvas>
+  <section class="home" id="Home">
+      <div class="max-width">
+        <div class="home-content">
+          <div class="text-1">Bonjour, je m'appelle </div>
+          <div class="text-2">Yvänn Erick Guillard</div>
+          <div class="text-3">Et je suis <span class="typing"></span></div>
+          <p>Scroll down <i class="fas fa-long-arrow-alt-down"></i></p>
+      </div>
+      </div>
+  </section>
+
+    <!-- About -->
+    <section class="about" id="apropos">
+        <div class="max-width">
+          <h2 class="title">À propos de moi</h2>
+          <div class="about-content">
+            <div class="column left">
+                <img id="anchor" src="img/eye/me.png" alt="Photo de profil" class="img_left">
+                <img id="anchor" src="img/eye/me2.png" alt="Photo de profil" class="img_left1">
+                <div id="eyes">
+                    <img class="eye" src="img/eye/test2.png" alt="eye" style="bottom:280px ; left:210px;">
+                    <img class="eye" src="img/eye/test2.png" alt="eye" style="bottom:280px ; left:166px;">
+                </div>
+            </div>
+            <div class="column right">
+              <div class="text">Je suis Yvänn Erick Guillard et je suis <span class="typing-2"></span></div>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo ea cumque alias, tempore consequuntur libero? Quo sapiente perspiciatis quidem mollitia, alias laboriosam in ipsa eius voluptate labore et qui ea id quis magni placeat enim facilis expedita pariatur sequi. Repudiandae animi molestias neque eligendi totam eius et dolorem iusto expedita maiores. Molestiae assumenda, repellat minus explicabo repudiandae quis voluptas asperiores!</p>
+              <a href="img/fichier/CV Yvänn Erick Guillard.pdf" download>Download CV</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <!-- services section start -->
+  <section class="services" id="Service">
+    <div class="max-width">
+        <h2 class="title">Mes services</h2>
+        <div class="serv-content">
+            <div class="box">
+              <div class="pourcent">
+                <svg class="c0">
+                  <circle cx="70px" cy="70px" r="70px"></circle>
+                  <circle cx="70px" cy="70px" r="70px"></circle>
+                </svg>
+                <h2 class="counter" data-target="85" data-speed="15">0</h2>
+                <h3>%</h3>
+              </div>
+                <h1>HTML</h1>
+            </div>
+            <div class="box">
+              <div class="pourcent">
+                <svg class="c1">
+                  <circle cx="70px" cy="70px" r="70px"></circle>
+                  <circle cx="70px" cy="70px" r="70px"></circle>
+                </svg>
+              <h2 class="counter" data-target="75" data-speed="10">0</h2>
+                <h3>%</h3>
+              </div>
+                <h1>CSS</h1>
+            </div>
+            <div class="box">
+              <div class="pourcent">
+                <svg class="c2">
+                  <circle cx="70px" cy="70px" r="70px"></circle>
+                  <circle class="c2" cx="70px" cy="70px" r="70px"></circle>
+                </svg>
+                <h2 class="counter" data-target="60" data-speed="1">0</h2>
+                <h3>%</h3>
+              </div>
+                <h1>JS</h1>
+            </div>
+        </div>
+    </div>
+  </section>
+
+
+  <!-- footer section start -->
+  <footer>
+    <span>Created By YG</a> | 2022 All rights reserved.</span>
+</footer>
+
+<script src='app.js'></script>
+</body>
+</html>
